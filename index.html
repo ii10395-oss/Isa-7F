@@ -5,11 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Real Madrid CF - The Royal Club</title>
     <style>
-        /* Grade 9 CSS Additions */
-        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; max-width: 900px; margin: auto; padding: 20px; background-color: #A9A9A9; }
-        header { background: #A9A9A9; color: dark gray; padding: 20px; text-align: center; border-radius: 8px; }
-        section { background: white; padding: 20px; margin: 20px 0; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        img { max-width: 100%; height: auto; border-radius: 5px; display: block; margin: 10px auto; }
+        /* Grade 9 CSS Layout */
+        body { 
+            font-family: 'Segoe UI', sans-serif; 
+            line-height: 1.6; 
+            max-width: 900px; 
+            margin: auto; 
+            padding: 20px; 
+            background-color: #A9A9A9; /* Dark Grey background */
+        }
+        header { 
+            background: #f4f4f4; 
+            color: #333; 
+            padding: 20px; 
+            text-align: center; 
+            border-radius: 8px;
+            border: 10px solid #FEBE10; /* Orange border for h1 context */
+        }
+        section { 
+            background: white; 
+            padding: 20px; 
+            margin: 20px 0; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+        }
+        p { 
+            color: darkgreen; 
+            font-size: 24px; /* Scaled down for readability while keeping your style */
+            font-family: 'Times New Roman', serif; 
+        }
+        img { 
+            max-width: 100%; 
+            height: auto; 
+            border-radius: 8px; 
+            display: block; 
+            margin: 20px auto; 
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
         .stats-list { background: #eee; padding: 15px; border-left: 5px solid #FEBE10; }
     </style>
 </head>
@@ -22,15 +54,16 @@
 
     <main>
         <section id="history">
-            <h2>Club History</h2>
-            <img src="realmadrid_stadium.jpg" alt="Aerial view of the Santiago Bernabéu Stadium">
+            <h2>Club History & Stadium</h2>
+            <!-- Image of the modern Santiago Bernabéu Stadium (2026 Renovation Style) -->
+            <img src="https://www.realmadrid.com" alt="The renovated Santiago Bernabéu Stadium in 2026">
             <p>Founded in 1902 as Madrid Football Club, the team has traditionally worn a white home kit since inception. The word <em>"Real"</em> is Spanish for Royal. Interestingly, Madrid is also home to the [Sobrino de Botín](https://www.casabotin.com), founded in 1725, which is the oldest working restaurant in the world according to the Guinness Book of Records.</p>
         </section>
 
         <section id="achievements" class="stats-list">
             <h2>Honours & Records</h2>
             <ul>
-                <li><strong>Champions League:</strong> 15 Titles (Record)</li>
+                <li><strong>Champions League:</strong> 15 Titles</li>
                 <li><strong>La Liga:</strong> 36 Championships</li>
                 <li><strong>Copa del Rey:</strong> 20 Titles</li>
                 <li><strong>UEFA Cup:</strong> 2 Titles (1985, 1986)</li>
@@ -38,18 +71,27 @@
         </section>
 
         <section id="players">
-            <h2>The Best Real Madrid Players</h2>
+            <h2>Legendary Players</h2>
             <article>
                 <h3>Cristiano Ronaldo</h3>
-                <img src="ronaldo_celebration.jpg" alt="Cristiano Ronaldo celebrating a goal for Real Madrid">
+                <!-- Iconic Cristiano Ronaldo Celebration Image -->
+                <img src="https://www.realmadrid.com" alt="Cristiano Ronaldo celebrating a goal for Real Madrid">
                 <p>Cristiano Ronaldo is widely considered Real Madrid's best player ever. He netted a record 450 goals in 438 appearances, averaging over one goal per game during his nine seasons (2009–2018). He was the key catalyst in winning four Champions League titles and securing four of his five Ballon d'Or awards while at the club.</p>
             </article>
-        </main>
+        </section>
+
+        <section id="multimedia">
+            <h2>Club Anthem & Media</h2>
+            <video width="100%" controls>
+                <source src="https://www.realmadrid.com" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2025 Real Madrid Fan Page | Grade 9 Computer Science Project</p>
+        <p style="font-size: 14px; text-align: center;">&copy; 2026 Real Madrid Fan Page | Grade 9 Computer Science Project</p>
     </footer>
 
 </body>
 </html>
-
